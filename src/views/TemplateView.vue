@@ -63,6 +63,7 @@ let countComp = computed(() => {
 // lifecycle hooks
 onMounted(() => {
     console.log(`The initial count is ${count.value}.`)
+    console.log("one line added");
 })
 
 </script>
